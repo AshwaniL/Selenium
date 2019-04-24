@@ -7,7 +7,7 @@ public class ChromeTest {
 	@Test
 	public void ctest() throws InterruptedException {
 	    ChromeDriver driver = new ChromeDriver();
-	    Thread.sleep(5000);
+	    
 	    driver.close();
 	}
 
